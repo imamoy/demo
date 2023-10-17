@@ -73,7 +73,7 @@ a:hover, a:focus, .main-button:hover, .main-button:focus, .main-outline-button:h
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  color: #fff !important;
+  color: #fff;
   border-radius: 70px;
   height: 70px;
   -webkit-transition: 0.25s opacity;
@@ -110,7 +110,15 @@ a:hover, a:focus, .main-button:hover, .main-button:focus, .main-outline-button:h
   background-color: #175ABC; }
 
 .main-outline-button {
-  border: 1px solid #fff; }
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #175ABC; }
+  .main-outline-button::after {
+    background-image: url("../styles/images/button-blue.png"); }
+  .main-outline-button:hover {
+    color: #fff; }
+    .main-outline-button:hover::after {
+      background-image: url("../styles/images/button-arrow.png"); }
 
 .product-card {
   border-radius: 4px;
@@ -298,6 +306,8 @@ footer {
       right: 0; }
   footer .main-outline-button {
     height: 50px;
+    background-color: transparent;
+    color: #fff;
     border-radius: 50px; }
     footer .main-outline-button::after {
       display: none; }
