@@ -139,7 +139,13 @@ a:hover, a:focus, .main-button:hover, .main-button:focus, .main-outline-button:h
 
 @media screen and (max-width: 768px) {
   .main-title {
-    font-size: 28px; } }
+    font-size: 28px; }
+  .product-card .product-card-img {
+    height: auto; }
+  .product-card .product-card-text {
+    padding: 0.5em; }
+    .product-card .product-card-text h4 {
+      font-size: 18px; } }
 
 /* ==========================================================================
 		header

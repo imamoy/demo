@@ -73,6 +73,10 @@ section:not(.banner) {
   text-align: center;
   height: 360px; }
 
+@media screen and (max-width: 767px) {
+  .product .product-img {
+    height: auto; } }
+
 .service {
   padding: 35vh 0 10vh !important;
   background-image: url("../styles/images/server-bg.jpg");
