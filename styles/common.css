@@ -55,7 +55,7 @@ html, body {
 body, * {
   cursor: url("../styles/images/dot.png"), auto; }
 
-a:hover, a:focus, .main-button:hover, .main-button:focus, .main-outline-button:hover, .main-outline-button:focus {
+a:hover, a:focus, .main-button:hover, .main-button:focus, .main-outline-button:hover, .main-outline-button:focus, .product-card:hover, .product-card:focus {
   cursor: url("../styles/images/dot-hover.png"), auto !important; }
 
 .main-title {
