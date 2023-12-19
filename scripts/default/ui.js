@@ -54,10 +54,18 @@ $(document).ready(function () {
 
   $(".article-slide").slick({
     infinite: false,
-    slidesToShow: 2,
-    slidesToScroll: 3,
+    slidesToShow: 3,
+    slidesToScroll: 1,
     dots: true,
     responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          arrows: false,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
       {
         breakpoint: 767,
         settings: {
