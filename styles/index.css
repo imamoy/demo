@@ -473,6 +473,7 @@
       display: table;
       width: 100%;
       max-width: 360px;
+      line-height: 45px;
       margin: 40px auto 0; }
     .book-slide .book:hover .book-text {
       background-color: #5463be; }
